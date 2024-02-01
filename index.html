@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgba(1, 21, 72, 0.954);
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(178, 103, 227);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(249, 48, 7);
+        font-size: 1.3rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2rem;
+        margin: 70px 0;
+      }
+      .leftsection .btn{
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .leftsection .buttons{
+        padding: 30px;
+        margin: -20px;
+      }
+
+      .rightsection img {
+        width: 100%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: rgb(165, 52, 122);
+      }
+      .text-gray {
+        color: gray;
+      }
+
+      #element {
+        color: rgb(165, 52, 132);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 2rem;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .secondsection .box {
+        background: white;
+        width: 70vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 94px;
+        width: 2px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 30px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 100px;
+        left: -107px;
+        width: 0px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 196px;
+        margin-left: -120px;
+        color: #4d8f8f;
+        font-size: 10px;
+      }
+      .footer {
+        background-color: #0e0e1a;
+        height: 100px;
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px ;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">HELLO</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">ABOUT</a></li>
+            <li><a href="/">CONTENT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hey My Name Is
+          <span class="purple"> Nikhil </span>
+          <div>And I Am A developer</div>
+          <span id="element"> </span>
+          <div class="buttons">
+            <button class="btn"> Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img
+            src="C:\Users\Nick\Pictures\Camera Roll\IMG_20221111_070837_668.jpg"
+          />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">what I have done so far </span>
+        <h1>Work experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="download (2).png"
+            />
+          </div>
+          <div class="vertical-title">Google</div>
+          <div class="vertical-desc">
+            "People live their lives bound by what they accept as correct and
+            true. That's how they define "reality". But what does it mean to be
+            "correct" or "true"? Merely vague concepts...
+          </div>
+
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="download.jpg"
+            />
+          </div>
+          <div class="vertical-title">Instagram</div>
+          <div class="vertical-desc">
+            "People live their lives bound by what they accept as correct and
+            true. That's how they define "reality". But what does it mean to be
+            "correct" or "true"? Merely vague concepts...
+          </div>
+
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="download (1).png"
+            />
+          </div>
+          <div class="vertical-title">YouTube</div>
+          <div class="vertical-desc">
+            "People live their lives bound by what they accept as correct and
+            true. That's how they define "reality". But what does it mean to be
+            "correct" or "true"? Merely vague concepts...
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Nikhil' developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+              </ul>
+        </div>
+        <div class="footer-rights">
+          &#169;nikhilsportfolio.com | all rights reserved 
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      let typed = new Typed("#element", {
+        strings: [
+          "Web Developer...",
+          "Graphic Designer...",
+          "Game Developer...",
+          "Web designer",
+        ],
+        typespeed: 50,
+      });
+    </script>
+  </body>
+</html>
